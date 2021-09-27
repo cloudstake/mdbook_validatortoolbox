@@ -5,3 +5,4 @@ description = "Easy Node's User Manual for validatortoolbox Harmony ONE Validato
 language = "en"
 multilingual = false
 src = "src"
+build-dir = "docs"
