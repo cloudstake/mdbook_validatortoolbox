@@ -1,8 +1,8 @@
 [book]
 title = "Easy Node Validator Toolbox Manual"
-authors = ["Easy Node"]
+author = "Easy Node"
 description = "Easy Node's User Manual for validatortoolbox Harmony ONE Validator Installer & Management Application"
 language = "en"
 multilingual = false
-src = "src"
-build-dir = "docs"
+create-missing = false
+build-dir="docs"
