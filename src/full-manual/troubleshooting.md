@@ -29,10 +29,12 @@ You can log an issues or bugs on our github page as well.
 
 ### Common Issues During Install
 If you're too good, you may try to run the installer before the user data setup completes. Just give it a moment and re-run the pip3 command.
-![Pick a shard, any shard!](../../.gitbook/assets/install_error_00.png)
+
+![Photo](../../.gitbook/assets/install_error_00.png)
 
 If you get this error, you didn't run the pip3 command or it failed, try it again.
-![Pick a shard, any shard!](../../.gitbook/assets/install_error_01.png)
+
+![Photo](../../.gitbook/assets/install_error_01.png)
 
 ### No Module Found Error
 
