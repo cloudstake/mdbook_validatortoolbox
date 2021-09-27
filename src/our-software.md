@@ -1,5 +1,5 @@
 ---
-description: An introduction to Easy Node Harmony Software Development
+## An introduction to Easy Node Harmony Software Development
 ---
 
 # Our Software

@@ -1,5 +1,5 @@
 ---
-description: One of the first steps is deciding where to run your servers.
+## One of the first steps is deciding where to run your servers.
 ---
 
 # Server or Server Provider

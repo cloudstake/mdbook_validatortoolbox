@@ -1,5 +1,5 @@
 ---
-description: Here's the breakdown of how things work to help you work with our process
+## Here's the breakdown of how things work to help you work with our process
 ---
 
 # Things to know about our setup & process

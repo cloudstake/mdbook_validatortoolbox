@@ -1,5 +1,5 @@
 ---
-description: Launch the validatortoolbox
+## Launch the validatortoolbox
 ---
 
 # Running validatortoolbox

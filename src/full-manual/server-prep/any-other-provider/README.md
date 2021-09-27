@@ -1,5 +1,5 @@
 ---
-description: >-
+## >-
   Here's what you need to get done to install validator-toolbox on a brand new
   Ubuntu 20.04LTS Server that you plan to run as a Harmony ONE Validator.
 ---

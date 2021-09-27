@@ -1,5 +1,5 @@
 ---
-description: >-
+## >-
   Here's what you need to get done to install validator-toolbox on a brand new
   droplet that you plan to run as a Harmony ONE Validator.
 ---

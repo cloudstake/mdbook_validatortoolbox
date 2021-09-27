@@ -1,5 +1,5 @@
 ---
-description: >-
+## >-
   Now is the time to decide on your brand. Once you're known and people start
   delegating it's hard to break out after renaming!
 ---

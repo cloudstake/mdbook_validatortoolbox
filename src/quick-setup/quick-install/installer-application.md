@@ -1,5 +1,5 @@
 ---
-description: Installing Harmony Validator software on a new Signing or Non-Signing Node
+## Installing Harmony Validator software on a new Signing or Non-Signing Node
 ---
 
 # Installer Application

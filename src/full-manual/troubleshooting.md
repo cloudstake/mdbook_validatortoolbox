@@ -1,5 +1,5 @@
 ---
-description: Having problems? Here's how to reset our app and try again!
+## Having problems? Here's how to reset our app and try again!
 ---
 
 # Troubleshooting

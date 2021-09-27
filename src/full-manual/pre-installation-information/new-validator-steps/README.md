@@ -1,5 +1,5 @@
 ---
-description: >-
+## >-
   Here's what you need to get done before you start setting up server equipment
   or virtual private servers.
 ---

@@ -1,5 +1,5 @@
 ---
-description: Here's the short guide on installing and our notes.
+## Here's the short guide on installing and our notes.
 ---
 
 # Quick Install

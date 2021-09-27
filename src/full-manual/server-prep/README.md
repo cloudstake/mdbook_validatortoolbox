@@ -1,5 +1,5 @@
 ---
-description: Things you need to know before downloading the validator-toolbox
+## Things you need to know before downloading the validator-toolbox
 ---
 
 # Server Prep

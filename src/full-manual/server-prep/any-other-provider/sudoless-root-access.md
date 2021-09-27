@@ -1,5 +1,5 @@
 ---
-description: >-
+## >-
   Grant a group sudoless access and add the user or give the user root access
   directly.
 ---

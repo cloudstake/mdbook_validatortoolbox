@@ -1,5 +1,5 @@
 ---
-description: Add your brand logo to a keybase account so it's ready for your validator
+## Add your brand logo to a keybase account so it's ready for your validator
 ---
 
 # Keybase - Validator Logo

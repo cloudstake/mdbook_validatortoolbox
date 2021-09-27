@@ -1,5 +1,5 @@
 ---
-description: How to stop worrying and pick a shard
+## How to stop worrying and pick a shard
 ---
 
 # Shard Choice

@@ -1,5 +1,5 @@
 ---
-description: 'What to do while downloading your shards, or after!'
+## 'What to do while downloading your shards, or after!'
 ---
 
 # Post Installation

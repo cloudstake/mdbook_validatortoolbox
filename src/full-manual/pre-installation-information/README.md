@@ -1,5 +1,5 @@
 ---
-description: 'If this is your first node, read this section a few times.'
+## 'If this is your first node, read this section a few times.'
 ---
 
 # Pre-Installation Information

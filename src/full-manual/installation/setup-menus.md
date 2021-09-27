@@ -1,5 +1,5 @@
 ---
-description: Here's more information about each setup menu along the way!
+## Here's more information about each setup menu along the way!
 ---
 
 # Setup Menus
