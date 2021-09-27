@@ -29,7 +29,7 @@ For any issues with the toolbox, or if you'd like to re-run it after launch it t
 
 You can log an issues or bugs on our github page as well.
 
-{% embed url="https://github.com/easy-node-one/validatortoolbox" caption="Our repository" %}
+[Our repository]("https://github.com/easy-node-one/validatortoolbox")
 
 ### No Module Found Error
 
