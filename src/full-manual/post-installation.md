@@ -1,9 +1,5 @@
+# 'What to do while downloading your shards, or after!'
 ---
-## 'What to do while downloading your shards, or after!'
----
-
-# Post Installation
-
 Once your shard download begins you can create or load your BLSKeys onto the server via another terminal session.
 
 ## BLS Key & Pass Creation / Upload

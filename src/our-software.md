@@ -1,9 +1,6 @@
----
-## An introduction to Easy Node Harmony Software Development
----
-
 # Our Software
-
+---
+#### An introduction to Easy Node Harmony Software Development
 Easy Node is a longtime Linux house using it as a daily desktop for many years before being a Linux Systems Administrator full time for the last 15+ years.
 
 We started validating in March and just going through [docs.harmony.one](https://docs.harmony.one) we knew there had to be an easier way for validators to get started with Harmony ONE Protocol.

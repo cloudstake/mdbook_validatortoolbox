@@ -1,11 +1,6 @@
+# Any Other Provider
 ---
-## >-
-  Here's what you need to get done to install validator-toolbox on a brand new
-  Ubuntu 20.04LTS Server that you plan to run as a Harmony ONE Validator.
----
-
-# Any Other Provider Ubuntu 20.04LTS
-
+#### Here's what you need to get done to install validator-toolbox on a brand new Ubuntu 20.04LTS Server that you plan to run as a Harmony ONE Validator.
 ## Server providers not named Digital Ocean:
 
 Here's what **you need to setup** for our application to run smoothly the first time you want to setup a new node:

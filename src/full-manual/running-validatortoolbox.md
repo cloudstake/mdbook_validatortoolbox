@@ -1,9 +1,5 @@
+# Launch the validatortoolbox
 ---
-## Launch the validatortoolbox
----
-
-# Running validatortoolbox
-
 ## Startup
 
 If this is the first time the validatortoolbox is run on a brand new node we will install the Harmony ONE Validator Software for you! 

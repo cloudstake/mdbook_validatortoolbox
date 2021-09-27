@@ -1,11 +1,6 @@
+# Main
 ---
-## Harmony ONE Installer & Node Software Management Menu Interface
----
-
-# Easy Node Validator's Toolbox
-
-## Easy Node Validator's Toolbox
-
+#### Harmony ONE Installer & Node Software Management Menu Interface
 This repository provides two functions in one application:
 
 * **Validator Installer** - A menu driven installer to help you setup validator nodes fast!

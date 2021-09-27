@@ -1,9 +1,5 @@
+# Quick Install Steps
 ---
-## Here's the short guide on installing and our notes.
----
-
-# Quick Install
-
 ## New Validators
 
 This guide won't work out so well for absolutely new users. You should go through the [New Validator Steps](../full-manual/pre-installation-information/new-validator-steps/) and setup a node that way before you attempt the quick version.

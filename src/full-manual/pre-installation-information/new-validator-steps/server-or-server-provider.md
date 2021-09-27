@@ -1,9 +1,6 @@
+# Server or Provider of Servers
 ---
-## One of the first steps is deciding where to run your servers.
----
-
-# Server or Server Provider
-
+One of the first steps is deciding where to run your servers.
 ## Hardware \(or cloud\) Requirements
 
 Review the current [hardware requirements here](https://docs.harmony.one/home/network/validators/server-setup/requirements).

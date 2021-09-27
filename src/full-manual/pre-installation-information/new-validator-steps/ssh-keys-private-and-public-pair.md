@@ -1,11 +1,6 @@
+# SSH Keys - Creating Private & Public Key Pairs
 ---
-## >-
-  How to further secure your server with passwordless login via ssh
-  private/public keys for your VPS provider & Github
----
-
-# SSH Keys - Private & Public Pair
-
+#### How to further secure your server with passwordless login via ssh private/public keys for your VPS provider & Github
 If you're using a cloud service for a provider you are most always prompted to upload your public key for the service provider to install on your new server \(or droplet if it's [Digital Ocean](https://m.do.co/c/b761e5fdd694)\).
 
 Disabling password logins on your server and only using SSH keys is a great way to harden the security of your node. With proper firewall configuration and SSH keys you can seriously lock down the security and make it virtually impossible for attackers to get into your node.

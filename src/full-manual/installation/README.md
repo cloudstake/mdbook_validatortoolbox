@@ -1,12 +1,6 @@
+# Installation Guide
 ---
-## Here's the steps to installation!
----
-
-# Installation
-
-## Installation
-
-The validatortoolbox application can be installed on existing nodes to utilize the management menu along with running on brand new servers to setup the Harmony Validator software.
+Here's the steps to installation! The validatortoolbox application can be installed on existing nodes to utilize the management menu along with running on brand new servers to setup the Harmony Validator software.
 
 ### **First Step**
 

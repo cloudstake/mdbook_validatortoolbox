@@ -1,8 +1,6 @@
+# The Setup Menus
 ---
-## Here's more information about each setup menu along the way!
----
-
-# Setup Menus
+Here's more information about each setup menu along the way!
 
 ## Loading Screen
 

@@ -1,9 +1,6 @@
----
-## Tools to help you administer your system.
----
-
 # System Administrator Tools
-
+---
+Applicaitons to help you administer your cloud server from home.
 ## Windows Applications
 
 ### Mobaxterm

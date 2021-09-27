@@ -1,10 +1,6 @@
+# Having problems? Here's how to reset our app and try again!
 ---
-## Having problems? Here's how to reset our app and try again!
----
-
-# Troubleshooting
-
-## Harmony Troubleshooting
+## Harmony Application Troubleshooting
 
 Harmony troubleshooting is actually quite simple. Here's how we suggest getting better messages to determine your issue:
 

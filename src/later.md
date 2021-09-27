@@ -1,9 +1,5 @@
+# A list of things to come, see our github for tracking!
 ---
-## 'A list of things to come, see our github for tracking!'
----
-
-# Later
-
 ## Supercharged Data
 
 We're going to start utilizing the full API to pull better stats data for option \#1.

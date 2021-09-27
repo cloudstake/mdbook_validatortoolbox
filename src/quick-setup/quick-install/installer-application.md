@@ -1,9 +1,5 @@
+# Installing Harmony Validator software on a new Signing or Non-Signing Node
 ---
-## Installing Harmony Validator software on a new Signing or Non-Signing Node
----
-
-# Installer Application
-
 ## Installer Choices
 
 ![Just our loading screen, first time you run it, the bottom banner will read this.](../../.gitbook/assets/image%20%2835%29.png)

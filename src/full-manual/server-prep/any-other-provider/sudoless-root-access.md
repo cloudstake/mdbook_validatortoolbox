@@ -1,10 +1,6 @@
+# Sudoless Root Access Setup
 ---
-## >-
-  Grant a group sudoless access and add the user or give the user root access
-  directly.
----
-
-# Sudoless Root Access
+#### Grant a group sudoless access and add the user or give the user root access directly.
 
 As your root account, use the editor of your choice modify the file `/etc/sudoers` as show \(nano example below\):
 
@@ -22,3 +18,5 @@ Save the file and exit.
 
 You'll need to disconnect your account and reconnect before the permissions are enabled. After reconnecting you are ready to run the easy-node-installer Application or validator-toolbox Application.
 
+## After Installation
+After installation you can remove these settings to run your account normally.

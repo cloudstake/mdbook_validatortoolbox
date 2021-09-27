@@ -1,11 +1,6 @@
+#  Digital Ocean
 ---
-## >-
-  Here's what you need to get done to install validator-toolbox on a brand new
-  droplet that you plan to run as a Harmony ONE Validator.
----
-
-# Digital Ocean
-
+#### Here's what you need to get done to install validator-toolbox on a brand new droplet that you plan to run as a Harmony ONE Validator.
 ## Droplet \(Server\) Creation
 
 Log into the Digital Ocean website, and select create a new droplet.
