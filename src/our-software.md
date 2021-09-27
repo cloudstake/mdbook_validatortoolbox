@@ -26,5 +26,5 @@ Once the idea was proposed we were approached with the idea of making it beginne
 
 Our software is now available on our github page below!
 
-{% embed url="https://github.com/easy-node-one/validatortoolbox" caption="Easy Node\'s Validator Toolbox!" %}
+[Easy Node\'s Validator Toolbox!]("https://github.com/easy-node-one/validatortoolbox")
 
