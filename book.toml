@@ -13,7 +13,7 @@ default-theme = "rust"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/easy-node-one/mdbook_validatortoolbox"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/easy-node-one/mdbook_validatortoolbox/edit/master/guide/{path}"
+edit-url-template = "https://github.com/easy-node-one/mdbook_validatortoolbox/edit/main/{path}"
 cname = "validator-toolbox-guide.easynode.one"
 no-section-label = true
 
