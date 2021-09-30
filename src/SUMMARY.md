@@ -15,6 +15,7 @@
   - [Brand Your Validator](pre-installation/new-validator-steps/brand-your-validator.md)
   - [Create Validator Logo](pre-installation/new-validator-steps/keybase-validator-logo.md)
   - [System Administrator Tools](pre-installation/new-validator-steps/system-administrator-tools.md)
+  - [First Time Validator Setup](pre-installation/final-steps.md)
 ---
 # Server Prep
 
