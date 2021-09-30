@@ -6,3 +6,17 @@ language = "en"
 multilingual = false
 create-missing = false
 build-dir="docs"
+
+[output.html]
+theme = "ayu"
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/easy-node-one/mdbook_validatortoolbox"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/easy-node-one/mdbook_validatortoolbox/edit/master/guide/{path}"
+cname = "validator-toolbox-guide.easynode.one"
+no-section-label = true
+
+[output.html.playground]
+editable = true
+line-numbers = true

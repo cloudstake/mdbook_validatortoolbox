@@ -19,13 +19,12 @@
 ---
 # Server Prep
 
-- [Server Prep](server-prep/README.md)
-  - [Digital Ocean](server-prep/digital-ocean.md)
-  - [Any Other Provider](server-prep/any-other-provider/README.md)
-    - [Sudoless Root Access](server-prep/any-other-provider/sudoless-root-access.md)
-  - [First Time Validator Extra Steps](server-prep/first-time.md)
-    - [BLS Keys](server-prep/bls-keys.md)
-    - [Send create-validator command](server-prep/create-validator.md)
+- [Digital Ocean](server-prep/digital-ocean.md)
+- [Any Other Provider](server-prep/any-other-provider/README.md)
+  - [Sudoless Root Access](server-prep/any-other-provider/sudoless-root-access.md)
+- [First Time Validator Extra Steps](server-prep/first-time.md)
+  - [BLS Keys](server-prep/bls-keys.md)
+  - [Send create-validator command](server-prep/create-validator.md)
 
 
 ---
