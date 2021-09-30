@@ -135,7 +135,7 @@
                     <main>
                         <h1 id="having-problems-heres-how-to-reset-our-app-and-try-again"><a class="header" href="#having-problems-heres-how-to-reset-our-app-and-try-again">Having problems? Here's how to reset our app and try again!</a></h1>
 <hr />
-<h2 id="harmony-application-troubleshooting"><a class="header" href="#harmony-application-troubleshooting">Harmony Application Troubleshooting</a></h2>
+<h1 id="harmony-application-troubleshooting"><a class="header" href="#harmony-application-troubleshooting">Harmony Application Troubleshooting</a></h1>
 <p>Harmony troubleshooting is actually quite simple. Here's how we suggest getting better messages to determine your issue:</p>
 <p>Stop your harmony service:</p>
 <pre><code class="language-text">sudo service harmony stop
@@ -145,15 +145,19 @@
 ./harmony -c harmony.conf
 </code></pre>
 <p>Analyze your error message and resolve or ask in <a href="https://discord.gg/babnYCEZ7Q">Discord Chat</a> about the solutions!</p>
-<h2 id="validator-toolbox-troubleshooting"><a class="header" href="#validator-toolbox-troubleshooting">Validator Toolbox Troubleshooting</a></h2>
+<h1 id="validator-toolbox-troubleshooting"><a class="header" href="#validator-toolbox-troubleshooting">Validator Toolbox Troubleshooting</a></h1>
 <p>For any issues with the toolbox, or if you'd like to re-run it after launch it the first time simply remove ~/.easynode.env from your server and rerun our script. That will trigger setup once again.</p>
 <p>You can log an issues or bugs on our github page as well.</p>
 <p><a href="%22https://github.com/easy-node-one/validatortoolbox%22">Our repository</a></p>
-<h3 id="common-issues-during-install"><a class="header" href="#common-issues-during-install">Common Issues During Install</a></h3>
+<h2 id="common-issues-during-install"><a class="header" href="#common-issues-during-install">Common Issues During Install</a></h2>
 <p>If you're too good, you may try to run the installer before the user data setup completes. Just give it a moment and re-run the pip3 command.</p>
 <p><img src="../.gitbook/assets/install_error_00.png" alt="" /></p>
+<h2 id="requirements-missing"><a class="header" href="#requirements-missing">Requirements missing</a></h2>
 <p>If you get this error, you didn't run the pip3 command or it failed, try it again.</p>
 <p><img src="../.gitbook/assets/install_error_01.png" alt="" /></p>
+<h2 id="sudoless-root-skipped---application-install-starts-and-freezes-up"><a class="header" href="#sudoless-root-skipped---application-install-starts-and-freezes-up">Sudoless Root Skipped - Application install starts and freezes up.</a></h2>
+<p>If your download freezes on this screen you didn't setup sudoless root properly. You can enter your user password to get it to continue or re-read the <a href="../server-prep/index.html">Server Prep</a> section.</p>
+<p><img src="../.gitbook/assets/install_error_02.png" alt="" /></p>
 <h3 id="no-module-found-error"><a class="header" href="#no-module-found-error">No Module Found Error</a></h3>
 <pre><code class="language-text">ModuleNotFoundError: No module named 'xxxxxxxxxx'
 </code></pre>
