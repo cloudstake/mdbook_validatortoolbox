@@ -20,3 +20,6 @@ no-section-label = true
 [output.html.playground]
 editable = true
 line-numbers = true
+
+[output.html.fold]
+enable = true
