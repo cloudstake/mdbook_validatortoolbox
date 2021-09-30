@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Digital Ocean - Easy Node Validator Toolbox Manual</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Easy Node&#x27;s User Manual for validatortoolbox Harmony ONE Validator Installer &amp; Management Application">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Main</a></li><li class="chapter-item expanded affix "><a href="../our-software.html">Our Software</a></li><li class="chapter-item expanded affix "><a href="../quick-setup/quick-install.html">Quick Install</a></li><li class="chapter-item expanded affix "><li class="part-title">Before Becoming A Validator</li><li class="chapter-item expanded "><a href="../pre-installation/index.html"><strong aria-hidden="true">1.</strong> Pre-Installation Information</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pre-installation/new-validator-steps/easy-node-way.html"><strong aria-hidden="true">1.1.</strong> The &quot;validatortoolbox&quot; Way</a></li><li class="chapter-item expanded "><a href="../pre-installation/new-validator-steps/index.html"><strong aria-hidden="true">1.2.</strong> New Validator Steps</a></li><li class="chapter-item expanded "><a href="../pre-installation/new-validator-steps/server-or-server-provider.html"><strong aria-hidden="true">1.3.</strong> Server or Server Provider</a></li><li class="chapter-item expanded "><a href="../pre-installation/new-validator-steps/shard-choice.html"><strong aria-hidden="true">1.4.</strong> Shard Choice</a></li><li class="chapter-item expanded "><a href="../pre-installation/new-validator-steps/ssh-keys-private-and-public-pair.html"><strong aria-hidden="true">1.5.</strong> SSH Keys for Login</a></li><li class="chapter-item expanded "><a href="../pre-installation/new-validator-steps/brand-your-validator.html"><strong aria-hidden="true">1.6.</strong> Brand Your Validator</a></li><li class="chapter-item expanded "><a href="../pre-installation/new-validator-steps/keybase-validator-logo.html"><strong aria-hidden="true">1.7.</strong> Create Validator Logo</a></li><li class="chapter-item expanded "><a href="../pre-installation/new-validator-steps/system-administrator-tools.html"><strong aria-hidden="true">1.8.</strong> System Administrator Tools</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Server Prep</li><li class="chapter-item expanded "><a href="../server-prep/index.html"><strong aria-hidden="true">2.</strong> Server Prep</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../server-prep/digital-ocean.html" class="active"><strong aria-hidden="true">2.1.</strong> Digital Ocean</a></li><li class="chapter-item expanded "><a href="../server-prep/any-other-provider/index.html"><strong aria-hidden="true">2.2.</strong> Any Other Provider</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../server-prep/any-other-provider/sudoless-root-access.html"><strong aria-hidden="true">2.2.1.</strong> Sudoless Root Access</a></li></ol></li><li class="chapter-item expanded "><a href="../server-prep/first-time.html"><strong aria-hidden="true">2.3.</strong> First Time Validator Extra Steps</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../server-prep/create-validator.html"><strong aria-hidden="true">2.3.1.</strong> Send create-validator command</a></li><li class="chapter-item expanded "><a href="../server-prep/bls-keys.html"><strong aria-hidden="true">2.3.2.</strong> BLS Keys</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><li class="part-title">Installation</li><li class="chapter-item expanded "><a href="../installation/index.html"><strong aria-hidden="true">3.</strong> Installation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../installation/setup-menus.html"><strong aria-hidden="true">3.1.</strong> Setup Menus</a></li></ol></li><li class="chapter-item expanded "><a href="../running-validatortoolbox.html"><strong aria-hidden="true">4.</strong> Running validatortoolbox</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Post Installation</li><li class="chapter-item expanded "><a href="../post-install/post-installation.html"><strong aria-hidden="true">5.</strong> Post Installation</a></li><li class="chapter-item expanded "><a href="../post-install/troubleshooting.html"><strong aria-hidden="true">6.</strong> Troubleshooting</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../post-install/later.html">Later</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Easy Node Validator Toolbox Manual</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="digital-ocean"><a class="header" href="#digital-ocean">Digital Ocean</a></h1>
+<hr />
+<h4 id="heres-what-you-need-to-get-done-to-install-validator-toolbox-on-a-brand-new-droplet-that-you-plan-to-run-as-a-harmony-one-validator"><a class="header" href="#heres-what-you-need-to-get-done-to-install-validator-toolbox-on-a-brand-new-droplet-that-you-plan-to-run-as-a-harmony-one-validator">Here's what you need to get done to install validator-toolbox on a brand new droplet that you plan to run as a Harmony ONE Validator.</a></h4>
+<h2 id="droplet-server-creation"><a class="header" href="#droplet-server-creation">Droplet (Server) Creation</a></h2>
+<p>Log into the Digital Ocean website, and select create a new droplet.</p>
+<p>Here are our current suggestions:</p>
+<h3 id="choose-an-image"><a class="header" href="#choose-an-image">Choose an Image</a></h3>
+<p>Choose only Ubuntu 20.04 (LTS) x64 here.</p>
+<p><img src="../../.gitbook/assets/image%20%283%29.png" alt="" /></p>
+<h3 id="choose-a-plan"><a class="header" href="#choose-a-plan">Choose a plan</a></h3>
+<p>The server size you pick is up to you and your budget. We suggest using Dedicated CPU Optimized nodes with the following specifications at a minimum:</p>
+<p>Shard 0 - 4+ dedicated CPU server node<br />
+Shard 1-3 - 2+ dedicated CPU server node</p>
+<p><img src="../../.gitbook/assets/image%20%285%29.png" alt="CPU-Optimized Dedicated CPU Systems" /></p>
+<h3 id="add-block-storage"><a class="header" href="#add-block-storage">Add block storage</a></h3>
+<p>Click add Volume - You will use block storage to hold all of your harmony files. Block storage can be expanded without interrupting your node so it's a very economical choice for saving money if you can manage your disk space wisely.</p>
+<p>We currently suggest using 250GB+ for your storage volume. Check with the <a href="https://t.me/PangaeaVolunteers">pangea telegram chat</a> or <a href="https://harmony.one/discord">harmony official discord</a> to verify shard size if this is your first download.</p>
+<p>You will want to <strong>Automatically format &amp; mount</strong> the volume and you can leave the filesystem type as <strong>Ext4</strong>.</p>
+<p><img src="../../.gitbook/assets/image%20%288%29.png" alt="250GB block storage volume as of 8/11/2021" /></p>
+<h3 id="choose-a-datacenter-region"><a class="header" href="#choose-a-datacenter-region">Choose a datacenter region</a></h3>
+<p>This one is open for debate but we stick to north american servers as they seem to have the best download and response times for the blockchain. If you have slow rclone speeds or missed signings consider using a north american server for your next build.</p>
+<h3 id="vpc-network"><a class="header" href="#vpc-network">VPC network</a></h3>
+<p>You can skip this option</p>
+<h2 id="user-data"><a class="header" href="#user-data">User Data</a></h2>
+<p><img src="../../.gitbook/assets/image%20%284%29.png" alt="User Data section filled out by.....YOU!!!" /></p>
+<p>You can easily make your server compliant to run validatortoolbox by selecting &quot;User data&quot; here along with &quot;Monitoring&quot; as options. This will setup a proper user account with access and all the required packages to run validatortoolbox and the Harmony software without any manual setup.</p>
+<p>Once you check the &quot;User Data&quot; box a large box will appear to input code. <strong>Copy the box below and edit the information</strong> to include:</p>
+<ul>
+<li><strong>Customize the username</strong>: We have pre-filled <code>serviceharmony</code> as our username suggestion but anything other than <strong>root</strong> works here!</li>
+<li><strong>ssh-authorized-keys</strong>: Add your own ssh-rsa public key in place of the ssh-rsa example key below to inject it into the account name you are creating above.</li>
+</ul>
+<pre><code class="language-bash">#cloud-config
+users:
+  - name: serviceharmony
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAA_EXAMPLE_KEY_ONLY_OOHch79N5OnB136TaVdXPQFaYFzubA1Lzbeus5H2BcbMieDyGBBTh4gEEkz2hsGCXeaw==
+package_upgrade: true
+packages:
+  - dnsutils
+  - nethogs
+  - python3-pip
+  - python3-dotenv
+</code></pre>
+<p>Once you have your code customized, paste it into the <strong>User Data</strong> box as shown:</p>
+<h3 id="authentication"><a class="header" href="#authentication">Authentication</a></h3>
+<p>The keys listed in this section get injected into the <code>root</code> account for the server. It's always good to use your keys here as a backup login method. Select any keys you would like to use.</p>
+<p>Don't have any keys here? Go back to the New Validator Pre-Install and learn how to <a href="../pre-installation-information/new-validator-steps/ssh-keys-private-and-public-pair.html#create-your-key-pairs">create a key pair</a>.</p>
+<h3 id="finalize-and-create"><a class="header" href="#finalize-and-create">Finalize and create</a></h3>
+<p>Here you will pick how many copies of this server you would like, 1 will do.</p>
+<p>You also choose a hostname. This is just a label you set to know which server you are on. We will display this name on the validator-toolbox so you know which server you are looking at currently.</p>
+<h3 id="add-tags"><a class="header" href="#add-tags">Add tags</a></h3>
+<p>Here you can apply a label to your new server. We have a tag setup named ONE that applies our firewall rules. Learn how to configure your firewall for digital ocean and use a tag in this guide here.</p>
+<h3 id="select-project"><a class="header" href="#select-project">Select Project</a></h3>
+<p>If you use a project to keep track of your servers, select it or create one here.</p>
+<h3 id="create-droplet"><a class="header" href="#create-droplet">Create Droplet</a></h3>
+<p>Now it's time to create your droplet. Click the button to get started and your server will start building.</p>
+<p>After a few minutes, you will be able to use ssh to gain access to your new server.</p>
+<h2 id="firewall"><a class="header" href="#firewall">Firewall</a></h2>
+<p>Here's some tips for going pro with your digital ocean firewall.</p>
+<p><img src="../../.gitbook/assets/image%20%2843%29.png" alt="Typical firewall setup for Digital Ocean" /></p>
+<ul>
+<li>You only need ports 6000 &amp; 9000 open to all IP addresses.</li>
+<li>Port 22 for SSH access only needs to be allowed from your current IP (see <a href="https://whatismyip.com">whatismyip.com</a> for your current external IP address)
+<ul>
+<li>If you try to access from another location, simply add that IP into the website firewall and remove when back home</li>
+</ul>
+</li>
+<li>On the droplets section of your firewalls page, create a tag
+<ul>
+<li>Apply that tag to all current servers and they will get that firewall automatically</li>
+<li>Apply the tag while creating a server and it will get that firewall automatically</li>
+</ul>
+</li>
+</ul>
+<p><img src="../../.gitbook/assets/image%20%2844%29.png" alt="Firewall, tagged with ONE" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../server-prep/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../server-prep/any-other-provider/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../server-prep/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../server-prep/any-other-provider/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
