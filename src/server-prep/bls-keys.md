@@ -46,6 +46,6 @@ Save and exit nano (Ctrl+X y enter)
 
 ## Backup your .key and .pass files @ home or in the cloud
 
-Using your admin transfer tool of choice, transfer your .key and .pass files to your home pc and store them securely. The key and pass files are all you need backed up to quickly restore a node. Once you create keys for a shard you can save them and re-use them when needed. They do not need to be created again once you have working copies backed up.
+Using your [admin transfer tool](../pre-installation/new-validator-steps/system-administrator-tools.html) of choice, transfer your .key and .pass files to your home pc and store them securely. The key and pass files are all you need backed up to quickly restore a node. Once you create keys for a shard you can save them and re-use them when needed. They do not need to be created again once you have working copies backed up.
 
 We suggest building a folder that contains a folder for each shard and storing your keys in there.
