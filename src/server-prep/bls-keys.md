@@ -16,13 +16,13 @@ Here you'll be creating the keys, creating a folder, and copying them into the p
 To keep things simple, set up a password file before you begin. This will make it easy to copy the password to the required .pass files.
 
 ```s
+cd ~/harmony
 echo -E 'password' > blskey.pass
 ```
 
 To create BLS Keys after you've completed the toolbox installation:
 
 ```s
-cd ~/harmony
 ./hmy keys generate-bls-keys --count 10 --shard 1 --passphrase-file blskey.pass
 ```
 

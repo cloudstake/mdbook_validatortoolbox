@@ -142,11 +142,11 @@
 <p>This covers creation of your BLS Key(s) that you decided on before starting the guide. We encourage you to run one on shards 1-3 instead of just 0.</p>
 <p>Here you'll be creating the keys, creating a folder, and copying them into the proper folders. You may want to store a backup of these files as well.</p>
 <p>To keep things simple, set up a password file before you begin. This will make it easy to copy the password to the required .pass files.</p>
-<pre><code class="language-s">echo -E 'password' &gt; blskey.pass
+<pre><code class="language-s">cd ~/harmony
+echo -E 'password' &gt; blskey.pass
 </code></pre>
 <p>To create BLS Keys after you've completed the toolbox installation:</p>
-<pre><code class="language-s">cd ~/harmony
-./hmy keys generate-bls-keys --count 10 --shard 1 --passphrase-file blskey.pass
+<pre><code class="language-s">./hmy keys generate-bls-keys --count 10 --shard 1 --passphrase-file blskey.pass
 </code></pre>
 <p>This will create .key files in your ~/harmony directory. Copy those key files to your ~/harmony/.hmy/blskey folder.</p>
 <pre><code class="language-s">cp *.key ~/harmony/.hmy/blskeys
