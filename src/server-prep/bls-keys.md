@@ -37,9 +37,9 @@ The last step to use your blskey.pass file is to edit your harmony.conf file and
 nano ~/harmony/harmony.conf
 ```
 
-Change the line `KeyFiles = []` to read:
+Change the line `PassFile = []` to read:
 ```s
-KeyFiles = "./blskey.pass"
+PassFile = "./blskey.pass"
 ```
 
 Save and exit nano (Ctrl+X y enter)
