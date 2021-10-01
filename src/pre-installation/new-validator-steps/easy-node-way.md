@@ -15,7 +15,9 @@ If you choose a Standard Wallet Node you'll put your mnemonic phrase directly in
 
 ## Volumes - Additional Storage
 At this point here's how storage works for our application
-- We check /mnt for a single mounted folder.
+- We check for a volume.
+- We check /mnt for a single volume mounted to a folder.
     - If one exists we make a folder inside of that named harmony, symlink it to ~/harmony and install your files there.
     - If you have no folders in /mnt - We set up harmony at ~/harmony in a folder. Everything else will be setup to utilize this folder for your application.
+    - If the disk is not moutned at all, we ask if you would like to install in ~/harmony as a work around for now but beware your storage space with this option!!!
 

@@ -34,7 +34,7 @@ Simply pick the shard this node will run on. It's a personal preference.
 
 **Mainnet** - The main Harmony ONE Blockchain for normal operations.
 
-**Testnet** - The Harmony ONE Testnet, use with test tokens. You can [visit our telegram](https://t.me/easynodesupport) if you need test network coins, we have plenty.
+**Testnet** - The Harmony ONE Testnet, use with test tokens. You can [visit our discord community](https://discord.gg/babnYCEZ7Q) if you need test network coins, we have plenty.
 
 ## Express Install or Manual Choices
 

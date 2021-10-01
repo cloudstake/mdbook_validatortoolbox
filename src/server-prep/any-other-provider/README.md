@@ -14,3 +14,6 @@ Here's what **you need to setup** for our application to run smoothly the first 
 * **Storage Volume**
   * Mount your volume to any folder inside of /mnt and we'll detect a single mount point inside of that folder, install harmony in /mnt/yourfolder/harmony and symlink that folder to ~/harmony
 
+# Server Created
+
+Once your system is online and you are logged in as root with the Server Prep completed, you are ready for Installation!

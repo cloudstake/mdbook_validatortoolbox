@@ -1,7 +1,22 @@
 #  Digital Ocean
 ---
 #### Here's what you need to get done to install validator-toolbox on a brand new droplet that you plan to run as a Harmony ONE Validator.
-## Droplet \(Server\) Creation
+# Firewall Configuration
+
+Here's some tips for going pro with your digital ocean firewall.
+
+![Typical firewall setup for Digital Ocean](../../.gitbook/assets/image%20%2843%29.png)
+
+* You only need ports 6000 & 9000 open to all IP addresses.
+* Port 22 for SSH access only needs to be allowed from your current IP \(see [whatismyip.com](https://whatismyip.com) for your current external IP address\)
+  * If you try to access from another location, simply add that IP into the website firewall and remove when back home
+* On the droplets section of your firewalls page, create a tag
+  * Apply that tag to all current servers and they will get that firewall automatically
+  * Apply the tag while creating a server and it will get that firewall automatically
+
+![Firewall, tagged with ONE](../../.gitbook/assets/image%20%2844%29.png)
+
+# Droplet \(Server\) Creation
 
 Log into the Digital Ocean website, and select create a new droplet.
 
@@ -74,7 +89,7 @@ Once you have your code customized, paste it into the **User Data** box as shown
 
 The keys listed in this section get injected into the `root` account for the server. It's always good to use your keys here as a backup login method. Select any keys you would like to use.
 
-Don't have any keys here? Go back to the New Validator Pre-Install and learn how to [create a key pair](../pre-installation-information/new-validator-steps/ssh-keys-private-and-public-pair.md#create-your-key-pairs).
+Don't have any keys here? Go back to the New Validator Pre-Install and learn how to [create a key pair](../pre-installation/new-validator-steps/ssh-keys-private-and-public-pair.md#create-your-key-pairs).
 
 ### Finalize and create
 
@@ -96,20 +111,6 @@ Now it's time to create your droplet. Click the button to get started and your s
 
 After a few minutes, you will be able to use ssh to gain access to your new server.
 
-## Firewall
+# Server Ready
 
-Here's some tips for going pro with your digital ocean firewall.
-
-![Typical firewall setup for Digital Ocean](../../.gitbook/assets/image%20%2843%29.png)
-
-* You only need ports 6000 & 9000 open to all IP addresses.
-* Port 22 for SSH access only needs to be allowed from your current IP \(see [whatismyip.com](https://whatismyip.com) for your current external IP address\)
-  * If you try to access from another location, simply add that IP into the website firewall and remove when back home
-* On the droplets section of your firewalls page, create a tag
-  * Apply that tag to all current servers and they will get that firewall automatically
-  * Apply the tag while creating a server and it will get that firewall automatically
-
-![Firewall, tagged with ONE](../../.gitbook/assets/image%20%2844%29.png)
-
-
-
+Once your server is built you are ready to login as `serviceharmony` or the username you specified in the userdata section!

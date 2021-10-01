@@ -1,8 +1,11 @@
 # Summary
+
 [Main](README.md)
-[Our Software](our-software.md)
+[Easy Node Software](easy-node-software.md)
+
 ---
 [Quick Install](quick-setup/quick-install.md)
+
 ---
 # Before Becoming A Validator
 
@@ -15,27 +18,28 @@
   - [Brand Your Validator](pre-installation/new-validator-steps/brand-your-validator.md)
   - [Create Validator Logo](pre-installation/new-validator-steps/keybase-validator-logo.md)
   - [System Administrator Tools](pre-installation/new-validator-steps/system-administrator-tools.md)
-  - [First Time Validator Setup](pre-installation/final-steps.md)
+- [First Time Validator Setup](pre-installation/final-steps.md)
+
 ---
 # Server Prep
 
-- [Digital Ocean](server-prep/digital-ocean.md)
-- [Any Other Provider](server-prep/any-other-provider/README.md)
+- [For Digital Ocean Users](server-prep/digital-ocean.md)
+- [For Any Other Provider](server-prep/any-other-provider/README.md)
   - [Sudoless Root Access](server-prep/any-other-provider/sudoless-root-access.md)
-- [First Time Validator Extra Steps](server-prep/first-time.md)
-  - [BLS Keys](server-prep/bls-keys.md)
-  - [Send create-validator command](server-prep/create-validator.md)
-
 
 ---
 # Installation
-- [Installation](installation/README.md)
+
+- [validatortoolbox Installation](installation/README.md)
   - [Setup Menus](installation/setup-menus.md)
+- [First Time (One Time) Setup Steps](installation/first-time.md)
+  - [BLS Keys](installation/bls-keys.md)
+  - [Send create-validator command](installation/create-validator.md)
 - [Running validatortoolbox](running-validatortoolbox.md)
 
 ---
 # Post Installation
-- [Post Installation](post-install/post-installation.md)
+- [What to do now?](post-install/post-installation.md)
 - [Troubleshooting](post-install/troubleshooting.md)
 
 ---

@@ -1,17 +1,17 @@
 # Quick Install Steps
 ---
-## New Validators
+## Brand New, First Time Validators
 
-This guide won't work out so well for absolutely new users. You should go through the [New Validator Steps](../full-manual/pre-installation-information/new-validator-steps/) and setup a node that way before you attempt the quick version.
+This guide won't work out so well for absolutely new users. You should go through the [New Validator Steps](../pre-installation/new-validator-steps/) and setup a node that way before you attempt the quick version.
 
 ## Server Prep:
 
-For full details on how to prep your first server from your provider, see our [Server Prep](../full-manual/server-prep/) section first.
+For full details on how to prep your first server from your provider, see our [Server Prep](../server-prep/digital-ocean.md) section first.
 
 * ✔️ A new Ubuntu 20.04LTS server
 * ✔️ Login as a user account with sudoless root access or run and install as root
-  * Digital Ocean Admins: Use the [User Data](../full-manual/server-prep/digital-ocean.md#user-data) section from our main guide to do this automatically!
-  * Other Providers Admins: Use the [Any Other Provider Guide](../full-manual/server-prep/any-other-provider/) on how to edit your [sudoers file](../full-manual/server-prep/any-other-provider/sudoless-root-access.md) or give access via groups.
+  * Digital Ocean Admins: Use the [User Data](../server-prep/digital-ocean.md#user-data) section from our main guide to do this automatically!
+  * Other Providers Admins: Use the [Any Other Provider Guide](../server-prep/any-other-provider/) on how to edit your [sudoers file](../server-prep/any-other-provider/sudoless-root-access.md) or give access via groups.
 * ✔️ Volume Support
   * Digital Ocean Auto Mounted Volumes will be detected and used for installation storage.
   * Other Providers: Mount your volume as a folder inside /mnt and it will be detected automatically and used for installation storage.
@@ -49,5 +49,5 @@ You will be presented with menus to choose your preferred node setup:
 
 ![Run the Server Node Installer \(New Servers\) or just run the Validator Toolbox Menu \(Existing\)](../.gitbook/assets/image%20%2825%29.png)
 
-Continue onto our [Setup Menus](../full-manual/installation/setup-menus.md) section of the main guide for more information on each available choice during our guided menu installer.
+Continue onto our [Setup Menus](../installation/setup-menus.md) section of the main guide for more information on each available choice during our guided menu installer.
 

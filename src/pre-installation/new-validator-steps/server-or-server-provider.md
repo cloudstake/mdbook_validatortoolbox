@@ -21,7 +21,7 @@ Other Providers, server purchase required to signup:
 * [OVHCloud ](https://us.ovhcloud.com/)\(USA\)- We use a bare metal server ADV-2 from OVH for our workhorse backbone server, make sure you get 1Gbps speed + or you may have signing issues
 * [OVH.com](https://www.ovh.com/world/) \(Outside USA\) - Several have reported good servers from OVH
 
-Got suggestions? Stop by our [telegram chat](https://t.me/easynodesupport) and let us know who to check out!
+Got suggestions? Stop by our [discord chat](https://discord.gg/babnYCEZ7Q) and let us know who to check out!
 
 ## Why do you push Digital Ocean?
 
