@@ -18,7 +18,7 @@ Here's more information about each setup menu along the way!
 
 ![Pick a shard, any shard!](../../.gitbook/assets/image%20%2839%29.png)
 
-Simply pick the shard this node will run on. It's a personal preference.
+Simply pick the shard this node will run on. It's a personal preference, although we suggest looking at the smart stake site and determining which shard of 1-3 has the lowest # of keys and using that shard (https://harmony.smartstake.io/election).
 
 ## Node Type
 
@@ -70,5 +70,5 @@ You will now start cloning your shards. If you choose shard 1-3 that shard will 
 
 ![Install complete!](../../.gitbook/assets/image%20%2817%29.png)
 
-
+As mentioned earlier, if you do not have sudoless root access, you will be prompted for a password, which is often several lines up from the bottom of the screen and sometimes hard to see.
 
