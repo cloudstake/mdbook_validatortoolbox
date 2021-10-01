@@ -8,7 +8,6 @@ create-missing = false
 build-dir="docs"
 
 [output.html]
-theme = "ayu"
 default-theme = "rust"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/easy-node-one/mdbook_validatortoolbox"
